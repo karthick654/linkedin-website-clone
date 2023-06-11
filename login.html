@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>linked-login</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" href="./css/style-1.css"/>
+<link rel="icon" href="./images/favicon.webp" /> 
+</head>
+<body>
+	<div class="logo">
+		<img src="images/linkedin-logo.jpg">
+	</div>
+	
+<!--page-section  -->
+<section class="container">
+	<form id="login-form">
+		<div class="head">
+			<h2>Sign in</h2>
+			<p>stay updated on your professional World</p>
+		</div>
+			<p class="error">Invalid Id <br>Invalid password</p>
+			<div class="head-btns">
+				<div>
+					<input type ="text" name="email" placeholder="Email or Phone" class="form_control" id="user_name"><br>
+					<p class="error_msg">Enter the Name or Email!</p>
+				</div>
+				<div id="show">
+					<input type ="password" name="password" placeholder="Password" class="form_control" id="user_pass">
+					<p class="error_msg">Enter the password!</p>
+					<p class="alert_msg">check the password!</p>
+				</div>
+				<span>show</span>
+			</div>
+				<h4>Forgot Password?</h4>
+			
+			
+			<div class="button-section">
+				<div class="btns">
+					<button type="button" onclick="onSignUp()" class="btn">Sign in</button>
+				</div>
+				
+					<div class="option">
+						<div></div>
+						<span>or</span>
+					</div>
+					
+						<div class="signup-btns">
+							<button type="button">New to linkedin ?Join now</button>
+						</div>
+			</div>	
+	</form>		
+</section>
+
+		<script src="js/main.js"></script>
+</body>

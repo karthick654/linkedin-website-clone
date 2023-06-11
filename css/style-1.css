@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:300px;
+	margin:0  auto;
+	padding:20px;
+	box-shadow:-2px 3px 18px #eeeeee;
+}
+
+body{
+	background-color:white;
+}
+.logo img{
+	margin:30px;
+}
+.head p{
+	 margin-bottom:20px;
+	font-size:13px;
+	color:#000000bd;
+	font-family:"poppins",sans-serif;
+}
+.head h2{
+	font-size:22px;
+	font-family:"poppins",sans-serif;
+}
+.head-btns input{
+	margin-bottom:20px;
+	width:100%;
+}
+.head-btns span{
+	position: absolute;
+    right: 10px;
+	top:74px;
+	color:#1976d2f5;
+	font-size:12px;
+	font-weight:bold;
+}
+.head-btns{
+	position:relative;
+}
+ h4{
+	padding-bottom:13px;
+	color:#0040ff99;
+	font-size:12px;
+	font-family:"poppins",sans-serif;
+}
+ span{
+	text-align:center;
+}
+input{
+	padding:10px 20px;
+}
+.option div{
+	height:1px;
+	background-color:#00000066;
+}
+.option{
+	padding:20px 0px;
+	position:relative;
+}
+.option span{
+	position:absolute;
+	 left: 48%;
+    top: 45%;
+	transform:translate(-50% , -50%);
+	 padding: 0px 3px;
+	background-color:white;
+	
+}
+.button-section{
+	padding:5px;
+}
+.btns button{
+	border-radius:50px;
+	width:100%;
+	border:none;
+	padding:10px 25px;
+	background-color:#1976d2;
+	font-size:15px;
+	color:white;
+	text-align:center;
+}
+
+.signup-btns button{
+	border-radius:20px;
+	padding:8px;
+	width:100%;
+	font-size:15px;
+	color:#757575;
+	border:1px solid gray;
+	background-color:white;
+	text-align:center;
+}
+
+/* alert-msg and error-msg */
+.error_msg,.alert_msg{
+	display:none;
+	color:red;
+	margin-top:-10px;
+}
+.error{
+	display:none;
+	color:red;
+}
+.error2{
+	display:block !important;
+}
+.invalid_input{
+	display:block !important;
+}
+	

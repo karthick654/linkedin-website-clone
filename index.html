@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Linkedin-Homepage</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/style-2.css" />
+      <link rel="stylesheet" href="./icons/css/font-awesome.min.css" />
+      <link rel="icon" href="./images/favicon.webp" />
+   </head>
+   <body>
+      <!-- Nav-section -->
+      <header class="header">
+         <section class="container">
+            <div class="flex-container active">
+               <div class="flex-item2">
+                  <div class="logo">
+                     <img src="images/logo-1.webp" height="60" width="60" />
+                     <input type="search" id="gsearch" name="gsearch" placeholder="search" />
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                  </div>
+               </div>
+               <div class="flex-item2"></div>
+
+               <div class="flex-item8">
+                  <div class="nav-bar">
+                     <ul class="nav-list">
+                        <li>
+                           <i class="fa fa-home" aria-hidden="true"></i><a href="#"><p>Home</p></a>
+                        </li>
+                        <li>
+                           <i class="fa fa-user" aria-hidden="true"></i><a href="#"><p>My Network</p></a>
+                        </li>
+                        <li>
+                           <i class="fa fa-suitcase" aria-hidden="true"></i><a href="#"><p>Jobs</p></a>
+                        </li>
+                        <li>
+                           <i class="fa fa-commenting-o" aria-hidden="true"></i><a href="#"><p>Message</p></a>
+                        </li>
+                        <li>
+                           <i class="fa fa-bell" aria-hidden="true"></i><a href="#"><p>Notifications</p></a>
+                        </li>
+
+                        <div class="drop-down">
+                           <a href="#" class="dropdown-Me">
+                              <a href="#" id="nav_icons_me">
+                                 <p><img src="images/image-1.jpeg" height="50" width="50" class="user-dp" /></p>
+                              </a>
+                              Me<i class="fa fa-caret-down" aria-hidden="true"></i>
+                              <div class="deep-dropdown">
+                                 <div class="drop-account">
+                                    <div class="drop-down-account">
+                                       <div class="icon-acc">
+                                          <p><img src="images/image-1.jpeg" height="60" width="60" class="user-dp" /></p>
+                                       </div>
+                                       <div class="drop-down-profile">
+                                          <h4 class="user-fname">vinoth K</h4>
+                                          <p>Senior Front End Developer</p>
+                                       </div>
+                                    </div>
+                                    <div class="drop-down-button">
+                                       <a href="profilepage.html">View Profile</a>
+                                    </div>
+                                 </div>
+                                 <div class="account">
+                                    <a href="#"><h4>Account</h4></a>
+                                    <i class="fa fa-folder" aria-hidden="true" id="folder"><a href="#" style="font-size: 15px;">Try Premium for free</a></i>
+                                    <a href="#"><p>Settings and Privacy</p></a>
+                                    <a href="#"><p>Help</p></a>
+                                    <a href="#"><p>Language</p></a>
+                                 </div>
+                                 <div class="activity">
+                                    <a href="#"><h4>Manage</h4></a>
+                                    <a href="#"><p>Posts & Activity</p></a>
+                                    <a href="#"><p>Job Posting Account</p></a>
+                                 </div>
+                                 <div class="buttons">
+                                    <a href="#" onclick="onSignOut(event)" class="btn">Sign out</a>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <li class="left">
+                           <i class="fa fa-th" aria-hidden="true"></i>
+                           <a href="#">
+                              <p>For Bussiness<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" style="text-decoration: brown underline;">
+                              Try premium for<br />
+                              free
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </header>
+
+      <!-- Nav-sections-ends -->
+
+      <!-- profile-section -->
+
+      <section class="portfolio-sections">
+         <div class="container">
+            <div class="flex-container">
+               <div class="flex-item3">
+                  <div class="portfolio-content">
+                     <div class="user-details">
+                        <img src="images/coding-2.jpg" height="100" width="261" />
+                        <span> <img src="images/image-1.jpeg" height="60" width="60" class="user-dp" /></span>
+                     </div>
+                     <div class="name">
+                        <a href="profilepage.html"><h3 class="user-fname">Vinoth K</h3></a>
+                        <p>Senior front End developer</p>
+                     </div>
+                     <div class="connections">
+                        <div class="item-1">
+                           <h4>Connections</h4>
+                           <span>74</span>
+                        </div>
+                        <p>Grow Your Network</p>
+                        <div class="item-2">
+                           <h4>Who's viewed your profile</h4>
+                           <span>39</span>
+                        </div>
+                     </div>
+                     <div class="folder">
+                        <p>Access exclusieve tools & insights</p>
+                        <i class="fa fa-folder" aria-hidden="true"></i><a href="#">Try premium for free</a>
+                     </div>
+                     <div class="bookmark"><i class="fa fa-bookmark" aria-hidden="true"></i><span>My Items</span></div>
+                  </div>
+                  <div class="portfolio-content2">
+                     <div class="recents">
+                        <h3>Recents</h3>
+                        <p><i class="fa fa-hashtag" aria-hidden="true"></i><span>php</span></p>
+                        <p><i class="fa fa-hashtag" aria-hidden="true"></i><span>mobileapplications</span></p>
+                        <p><i class="fa fa-hashtag" aria-hidden="true"></i><span>programming</span></p>
+                        <p><i class="fa fa-hashtag" aria-hidden="true"></i><span>technology</span></p>
+                        <p><i class="fa fa-hashtag" aria-hidden="true"></i><span>music</span></p>
+                     </div>
+                     <div class="groups">
+                        <p>Groups</p>
+                        <div class="Events">
+                           <p>Events</p>
+                           <span><i class="fa fa-plus" aria-hidden="true"></i></span>
+                        </div>
+                        <p>Followed Hashtags</p>
+                     </div>
+                     <div class="footer">
+                        <p><i class="fa fa-hashtag" aria-hidden="true"></i><span>php</span></p>
+                        <p><i class="fa fa-hashtag" aria-hidden="true"></i><span>mobileapplications</span></p>
+                        <p><i class="fa fa-hashtag" aria-hidden="true"></i><span>programming</span></p>
+                        <p class="show-more">Show more <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                     </div>
+                     <div class="discover">Discover more</div>
+                  </div>
+               </div>
+               <!-- portfolio-second-section -->
+               <div class="flex-item6">
+                  <div class="post-section">
+                     <div class="search">
+                        <img src="images/image-1.jpeg" height="50" width="50" class="user-dp" />
+                        <button type="button" id="pst_btn" class="post-button">start a post</button>
+                     </div>
+                     <div class="post">
+                        <div class="icon-1">
+                           <i class="fa fa-picture-o" aria-hidden="true"></i>
+                           <span>Photo</span>
+                        </div>
+
+                        <div class="icon-2">
+                           <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                           <span>Video</span>
+                        </div>
+
+                        <div class="icon-3">
+                           <i class="fa fa-briefcase" aria-hidden="true"></i>
+                           <span>Jobs</span>
+                        </div>
+
+                        <div class="icon-4">
+                           <i class="fa fa-bars" aria-hidden="true"></i>
+                           <span>write article</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sortby">
+                     <span></span>
+                     <p>Sortby:Top<i class="fa fa-chevron-down" aria-hidden="true"></i></p>
+                  </div>
+
+                  <div class="center-body">
+                     <div class="head">
+                        <div class="header-logo">
+                           <img src="images/fabevy-logo.jpg" height="40" width="40" />
+                           <div>
+                              <p>Fabevy</p>
+                              <p>3,358 followers</p>
+                              <div class="lists">
+                                 <p>1h</p>
+                                 <div>
+                                    <i class="fa fa-circle" aria-hidden="true"></i>
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <i class="fa fa-ellipsis-h" aria-hidden="true" id="log-icon"></i>
+                     </div>
+
+                     <div class="para-2">
+                        <p>Forests are green oceans are blue lets keep the earth clean for me and you</p>
+                     </div>
+                     <div class="para-3">
+                        <p>Fabevy wishes you a happy earth day!</p>
+                        <p>... see more</p>
+                     </div>
+
+                     <div class="full-image">
+                        <img src="images/main-img.jpg" height="auto" width="100%" />
+                     </div>
+                  </div>
+
+                 
+
+                  <div class="commenting-icons">
+                     <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>like</a>
+
+                     <a href="#"><i class="fa fa-commenting" aria-hidden="true"></i>comment</a>
+
+                     <a href="#"><i class="fa fa-retweet" aria-hidden="true"></i>repost</a>
+
+                     <a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>share</a><br />
+                     <br />
+                     <i class="fa fa-info-circle" aria-hidden="true"></i>
+                     <span>Be the first to comment</span>
+                  </div>
+                   <div id="post-container"></div>
+               </div>
+
+               <div class="flex-item4">
+                  <div class="third-section">
+                     <div class="news">
+                        <div class="news-header">
+                           <p>LinkedIn News</p>
+                           <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="news-list">
+                           <li>Here are 2023's top compaines to wat...</li>
+                           <div class="head-1">
+                              <p>Top news</p>
+                              <i class="fa fa-circle dot" aria-hidden="true"></i>
+                              <span>8,784readers</span>
+                           </div>
+                           <li>Meta cuts core roles,workers react</li>
+                           <div class="head-1">
+                              <p>1day ago</p>
+                              <i class="fa fa-circle dot" aria-hidden="true"></i>
+                              <span>35,908members</span>
+                           </div>
+                           <li>Engineering college catch the AI bug</li>
+                           <div class="head-1">
+                              <p>1day ago</p>
+                              <i class="fa fa-circle dot" aria-hidden="true"></i>
+                              <span>180readers</span>
+                           </div>
+                           <li>Double scoop for ice cream market</li>
+                           <div class="head-1">
+                              <p>1dayago</p>
+                              <i class="fa fa-circle dot" aria-hidden="true"></i>
+                           </div>
+                           <li>Education hit hard by publishing</li>
+                           <div class="head-1">
+                              <p>1day ago</p>
+                              <i class="fa fa-circle dot" aria-hidden="true"></i>
+                           </div>
+                        </div>
+                        <div class="graph">
+                           <p class="show-more">Show more <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="Advertisment">
+                     <div class="Ad-section">
+                        <p>Ad</p>
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                     </div>
+                     <div class="">
+                        <p>karthick,unlock with your full potential with linkedin premium</p>
+                     </div>
+                     <div class="key-1">
+                        <img src="images/image-1.jpeg" height="50" width="50" class="user-dp" />
+                        <img src="images/key-1.jpg" height="50" width="50" />
+                     </div>
+                     <div class="">
+                        <p>see who viewed your profile in the last 90days</p>
+                     </div>
+                     <div class="options">
+                        <button type="button">Try for free</button>
+                     </div>
+                  </div>
+
+                  <div class="end-content">
+                     <div class="endcontent-1">
+                        <a href="#">About</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Help center</a>
+                     </div>
+                     <div class="endcontent-2">
+                        <a href="#">privacy& terms<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <a href="#">Ad choices</a>
+                     </div>
+                     <div class="endcontent-3">
+                        <a href="#">Advertising</a>
+                        <a href="#">Business Services<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                     </div>
+                     <div class="endcontent-4">
+                        <a href="#">Get the linkedin app</a>
+                        <a href="#">More</a>
+                     </div>
+                     <div class="endcontent-5">
+                        <img src="images/linkedin-logo.jpg" height="20" width="auto" />
+                        <a href="#">linkedin corpration<i class="fa fa-copyright" aria-hidden="true"></i>2023</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="edit-container">
+         <div class="startpost-head">
+            <p>create a post</p>
+            <a href="#" id="close-icon"><i class="fa fa-times" aria-hidden="true" style="position: static;"></i></a>
+         </div>
+
+         <div class="startpost">
+            <div class="startpost-image">
+               <img src="images/ragupathi.jpg" height="50" width="50" class="user-dp" />
+            </div>
+            <p class="user-fname">karthick</p>
+         </div>
+         <div class="text-area">
+            <textarea rows="6" id="txt-area">what you know about?</textarea>
+         </div>
+         <div class="bottom-icons">
+            <input type="file" id="modal-box-input" />
+            <button onclick="document.getElementById('modal-box-input').click()" class="btns"><i class="fa fa-picture-o" aria-hidden="true"></i></button>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-comment" aria-hidden="true"></i>
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            <i class="fa fa-commenting-o" aria-hidden="true"></i>
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <button type="button" id="pst-button">post</button>
+         </div>
+         <div class="show-image"></div>
+      </section>
+
+      <div class="overlay"></div>
+      <script src="js/user.js"></script>
+   </body>
+</html>
